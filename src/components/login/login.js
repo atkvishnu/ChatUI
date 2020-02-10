@@ -9,7 +9,6 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import ScalingSquaresSpinner from '@bit/bondz.react-epic-spinners.scaling-squares-spinner';
 
 
 const firebase = require("firebase");
@@ -25,7 +24,6 @@ class LoginComponent extends React.Component {
         }
     }
 
-
     render(){
 
         const { classes } = this.props;
@@ -33,8 +31,7 @@ class LoginComponent extends React.Component {
         return(
             <main className={classes.main}>
                 <CssBaseline/>
-                <ScalingSquaresSpinner className={classes.squares} color='#000000'
-                size='100'></ScalingSquaresSpinner>
+                
                 <Paper className={classes.paper}>
                     <Typography component='h1' variant='h5'>
                         Log In!

@@ -7,6 +7,7 @@ import * as firebase from 'firebase';
 import LoginComponent from './components/login/login';
 import SignupComponent from './components/signup/signup';
 import DashboardComponent from './components/dashboard/dashboard';
+import MainPageComponent from './components/mainpage/mainpage'
 
 
 // const firebase = require("firebase");
@@ -28,6 +29,7 @@ firebase.initializeApp({
 const routing = (
     <Router>
         <div id='routing-container'>
+            <Route exact path='/' component={MainPageComponent}></Route>
             <Route path='/login' component={LoginComponent}></Route>
             <Route path='/signup' component={SignupComponent}></Route>
             <Route path='/dashboard' component={DashboardComponent}></Route>
