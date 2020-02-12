@@ -5,6 +5,7 @@ import styles from './styles';
 import ChatViewComponent from '../chatview/chatview';
 import ChatTextBoxComponent from '../chattextbox/chatTextBox';
 import NewChatComponent from '../newchat/newChat';
+import FlowerSpinner from '@bit/bondz.react-epic-spinners.flower-spinner'
 
 const firebase = require("firebase");
 
@@ -54,11 +55,10 @@ class DashboardComponent extends React.Component {
             );
           } else {
             return(
-                <div>
-                    <h1>
-                        Loading...
-                    </h1>
-                </div>
+                <main className={classes.flower}>
+                    <FlowerSpinner color='#000000'
+                    size='200'/>
+                </main>
             );
           }
         }

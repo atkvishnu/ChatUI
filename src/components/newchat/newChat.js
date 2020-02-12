@@ -44,7 +44,7 @@ class NewChatComponent extends React.Component {
                                 onChange={(e) => this.userTyping('message', e)}
                                 id='new-chat-message'></Input>
                         </FormControl>
-                        <Button fullWidth className={classes.submit} variant="contained" color="primary" type="submit"></Button>
+                        <Button fullWidth className={classes.submit} variant="contained" color="primary" type="submit">Send!</Button>
                     </form>
                 </Paper>
             </main>

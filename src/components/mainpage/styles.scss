@@ -1,0 +1,259 @@
+$plain-white: #f8fafd;
+$white: #f8fafd;
+$bluehr: #dfedfb;
+$light-blue: #cbe3fa;
+$grey: #677897;
+$azure: #91b7dc;
+$blue: #6b8cae;
+
+.App {
+  width: 1440px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  box-shadow: inset 0px 0px 100px 100px rgba($white, .75);
+  padding: 0px 140px;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav {
+      padding: 27px 0;
+
+      ul {
+        display: flex;
+        margin: 0;
+        font-size: 16px;
+        color: $blue;
+
+        li {
+          padding: 0 10px;
+          cursor: pointer;
+
+          &::before {
+            content: '';
+            display: block;
+            width: 0%;
+            height: 1px;
+            background-color: $blue;
+            margin-bottom: 5px;
+            transition: all ease 0.2s;
+          }
+
+          &:hover {
+            text-shadow: 1px 0 0 $blue;
+
+            &::before {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section.impress {
+    padding-top: 155px;
+    margin-right: -40px;
+    background: url("./assets/laptop.webp") 100% 0% no-repeat;
+    min-height: 520px;
+    animation: wave 5s infinite;
+    animation-timing-function: ease-in-out;
+
+    h1 {
+      font-size: 48px;
+    }
+
+    .button {
+      margin-top: 40px;
+
+      &:hover {
+        background-position: -200px 0px;
+      }
+    }
+  }
+
+
+
+  section.a4 {
+    margin-top: 200px;
+    text-align: center;
+
+    p {
+      margin: 10px 0;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 480px;
+    }
+  }
+
+  section.a5 {
+    margin-top: 175px;
+    text-align: center;
+
+    p {
+      margin: 10px 0;
+    }
+
+    .button-hollow {
+      display: inline-block;
+      margin-top: 330px;
+    }
+  }
+
+  section.a6 {
+    margin-top: 95px;
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid $bluehr;
+    border-bottom: 2px solid $bluehr;
+
+    h3 {
+      flex-grow: 1;
+    }
+
+    .button {
+      margin: 0 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  footer {
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 0 50px 0;
+
+      ul {
+        li {
+          margin-bottom: 21px;
+
+          a {
+            &:hover {
+              text-shadow: 1px 0 0 $blue;
+            }
+          }
+        }
+      }
+
+      .address {
+        padding: 0 25px;
+        line-height: 1.5;
+        text-align: right;
+      }
+
+      svg.pin {
+        fill: #91b7dc;
+        margin-top: 5px;
+      }
+
+      .social-icons {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 215px;
+      }
+    }
+
+    .credits {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 52px;
+      padding: 0 20px;
+      font-size: 12px;
+      background-color: $bluehr;
+
+      .credits-link {
+        a {
+          color: $blue;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+hr {
+  border: 2px solid $bluehr;
+}
+
+.button {
+  width: 211px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  color: $plain-white;
+  border-radius: 23px;
+  box-shadow: 1px 1px 2px #0000004a;
+  background: linear-gradient(45deg, rgba(0, 212, 255, 1) 0%, rgba(26, 131, 221, 1) 33%, rgba(26, 131, 221, 1) 66%, rgba(0, 212, 255, 1) 100%);
+  background-size: 200%, 200%;
+  background-position: 0px 0px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-position: -200px 0px;
+  }
+}
+
+.button-hollow {
+  width: 211px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  color: $plain-white;
+  border-radius: 23px;
+  padding: 2px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px #0000004a;
+  background: linear-gradient(45deg, rgba(0, 212, 255, 1) 0%, rgba(26, 131, 221, 1) 33%, rgba(26, 131, 221, 1) 66%, rgba(0, 212, 255, 1) 100%);
+  background-size: 200%, 200%;
+  background-position: 0px 0px;
+  transition: all 0.2s ease;
+
+  span {
+    background-color: #f8fafd;
+    border-radius: 23px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $grey;
+  }
+
+  &:hover {
+    background-position: -200px 0px;
+  }
+}
+
+@keyframes wave {
+  0%, 20%, 50%, 80%, 100% {
+    background-position: 100% 0px;
+  }
+
+  40% {
+    background-position: 100% -10px;
+  }
+  60% {
+    background-position: 100% -5px;
+  }
+
+  /*0%, 100% {
+    background-position: 100% 5px;
+  }
+  25% {
+    background-position: 100% -5px;
+  }*/
+}

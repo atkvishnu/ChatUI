@@ -1,0 +1,96 @@
+$plain-white: #f8fafd;
+$white: #f8fafd;
+$bluehr: #dfedfb;
+$light-blue: #cbe3fa;
+$grey: #677897;
+$azure: #91b7dc;
+$blue: #6b8cae;
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
+
+body, html, #root {
+  height: auto;
+  width: auto;
+}
+
+body {
+  background-color: $white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: $grey;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  margin: 0;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: 700;
+}
