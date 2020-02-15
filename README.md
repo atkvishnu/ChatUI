@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e0e66eae-127d-48f0-8921-ea5f502d0f74/deploy-status)](https://app.netlify.com/sites/chatui/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
