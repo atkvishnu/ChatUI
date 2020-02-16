@@ -14,14 +14,14 @@ import MainPageComponent from './components/mainpage/mainpage'
 require("firebase/firestore");
   
 firebase.initializeApp({
-    apiKey: "",
-    authDomain: "",
-    databaseURL: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: "",
-    measurementId: ""
+    apiKey: "AIzaSyBQqnPIhInZas7Q9a0Yo4XylGj8f4mFOME",
+    authDomain: "chatui-c159b.firebaseapp.com",
+    databaseURL: "https://chatui-c159b.firebaseio.com",
+    projectId: "chatui-c159b",
+    storageBucket: "chatui-c159b.appspot.com",
+    messagingSenderId: "733539814991",
+    appId: "1:733539814991:web:9702379421480f5c60243a",
+    measurementId: "G-7WDPDMNW2D"
 });
 
 // firebase.analytics();
