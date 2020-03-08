@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/54570932-3df8-4fbb-a4cb-02466f1b564d/deploy-status)](https://app.netlify.com/sites/chatui/deploys) 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6fbe5b93-d884-4682-88a0-165a1513824f/deploy-status)](https://app.netlify.com/sites/chatui/deploys)
 
 https://chatui.netlify.com
 
