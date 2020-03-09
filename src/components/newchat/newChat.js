@@ -51,7 +51,9 @@ class NewChatComponent extends React.Component {
             <Typography component='h5' variant='h6' className={classes.errorText}>
               Unable to locate the user
             </Typography> :
-            null
+            <Typography component='h5' variant='h6' className={classes.errorText}>
+              Problem in sending!
+            </Typography>
           }
         </Paper>
       </main>
