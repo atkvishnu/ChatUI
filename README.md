@@ -1,5 +1,5 @@
 # [ChatUI](https://chatui.netlify.com) 	:desktop_computer: 	:incoming_envelope: 
----------------------------------
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9e2d536d-1619-40a0-8ded-33e714fe46f9/deploy-status)](https://app.netlify.com/sites/chatui/deploys)
 
 #### Website Link: [ChatUI](https://chatui.netlify.com)
