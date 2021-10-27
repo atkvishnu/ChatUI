@@ -8,12 +8,12 @@ This project was bootstrapped with [React](https://github.com/facebook/create-re
 
 ### This is a **simple chat app :envelope: implementation**.
 
-*You can use it by creating an account, and then enjoy chatting with your friends*
+***You can use it by creating an account, and then enjoy chatting with your friends***
 
-**PLEASE** do not use this medium for illegal OR illicit activities! 
+:x: **PLEASE** do not use this medium for illegal OR illicit activities! :x:
 
-Frontend: React, Sass.
-Backend: Firebase.
+Frontend :desktop_computer: : React, Sass.
+Backend :electric_plug: : Firebase.
 
 Future :hourglass_flowing_sand: features to be added:
 
