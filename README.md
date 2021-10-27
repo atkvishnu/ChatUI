@@ -6,7 +6,7 @@
 
 This project was bootstrapped with [React](https://github.com/facebook/create-react-app).
 
-##### This is a **simple chat app :envelope: implementation**.
+### This is a **simple chat app :envelope: implementation**.
 
 *You can use it by creating an account, and then enjoy chatting with your friends*
 
