@@ -13,6 +13,7 @@ This project was bootstrapped with [React](https://github.com/facebook/create-re
 :x: **PLEASE** do not use this medium for illegal OR illicit activities! :x:
 
 Frontend :desktop_computer: : React, Sass.
+
 Backend :electric_plug: : Firebase.
 
 Future :hourglass_flowing_sand: features to be added:
