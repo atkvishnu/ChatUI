@@ -1,5 +1,15 @@
 # [ChatUI](https://chatui.netlify.com) 	:desktop_computer: 	:incoming_envelope: 
 
+![GitHub stars](https://img.shields.io/github/stars/atkvishnu/ChatUI?style=social)
+![GitHub forks](https://img.shields.io/github/forks/atkvishnu/ChatUI?style=plastic)
+![GitHub watchers](https://img.shields.io/github/watchers/atkvishnu/ChatUI?style=flat)
+![GitHub followers](https://img.shields.io/github/followers/atkvishnu?style=flat)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/atkvishnu/ChatUI?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/atkvishnu/ChatUI?style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/atkvishnu/ChatUI?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/atkvishnu/ChatUI?color=red&style=flat-square)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9e2d536d-1619-40a0-8ded-33e714fe46f9/deploy-status)](https://app.netlify.com/sites/chatui/deploys)
 
 #### Website Link: [ChatUI](https://chatui.netlify.com)
