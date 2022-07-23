@@ -1,4 +1,4 @@
-# [ChatUI](https://chatui.netlify.com) 	:desktop_computer: 	:incoming_envelope: 
+# [ChatUI](https://chatui.netlify.com) 	:incoming_envelope: 
 
 ![GitHub stars](https://img.shields.io/github/stars/atkvishnu/ChatUI?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/atkvishnu/ChatUI?style=plastic)
