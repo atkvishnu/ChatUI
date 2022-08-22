@@ -33,7 +33,7 @@ export default class MainPageComponent extends React.Component {
 
         <section className="impress">
             <h1>
-                Chat-UI
+                Chats
             </h1>
           <div className="button"><Link to='/signup'>Get early access</Link></div>
         </section>

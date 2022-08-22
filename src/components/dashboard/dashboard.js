@@ -32,12 +32,14 @@ class DashboardComponent extends React.Component {
         if(this.state.email) {
             return(
               <div className='dashboard-container' id='dashboard-container'>
-                <ChatListComponent history={this.props.history} 
-                  userEmail={this.state.email} 
-                  selectChatFn={this.selectChat} 
-                  chats={this.state.chats} 
-                  selectedChatIndex={this.state.selectedChat}
-                  newChatBtnFn={this.newChatBtnClicked}>
+                <ChatListComponent 
+                    history={this.props.history} 
+                    userEmail={this.state.email} 
+                    selectChatFn={this.selectChat} 
+                    chats={this.state.chats} 
+                    selectedChatIndex={this.state.selectedChat}
+                    newChatBtnFn={this.newChatBtnClicked}
+                >
                 </ChatListComponent>
                 {
                   this.state.newChatFormVisible ? null : <ChatViewComponent 
